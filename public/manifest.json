@@ -1,0 +1,18 @@
+{
+  "name": "AI 데일리 브리핑",
+  "short_name": "AI브리핑",
+  "description": "W Island · 커머스/마케팅 관점의 AI 뉴스 브리핑",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F0F4FF",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+  background: #f0f4ff;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+::-webkit-scrollbar { display: none; }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.45; }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
